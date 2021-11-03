@@ -1,0 +1,39 @@
+<HTML><HEAD><TITLE>자격 증명</TITLE>
+<meta charset="utf-8">
+<script language="javascript">
+<!--
+function login_page(form) {
+
+if (form.pass.value=="이성연") {
+
+location="Solar4.html"
+} else {
+alert("실패하였습니다.")
+}
+}
+
+</script>
+
+</HEAD>
+
+<body>
+    <style>
+        body {
+          background-image: url(HeavenDoor.jpg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        </style>
+
+<center><img src = "Solar.jpg" style = "width:25%; height:71%; margin-top: 1%;"/></center>
+
+<center><h1 style="color:red;">
+내게 증명해 보여라.</h1>
+<form name="loginForm">
+<p style="margin-bottom:20;"> 
+<input autocomplete="off" name="pass" type="text" size="25">
+<input type="button" value="확 인" onClick="login_page(this.form)" style="font-weight:bolder; font-size:4mm;"><BR>
+</form>
+</center>
+</BODY></HTML>
