@@ -1,0 +1,31 @@
+<HTML><HEAD><TITLE>자격 증명</TITLE>
+    <meta charset="utf-8">
+<script language="javascript">
+
+function login_page(form) {
+
+if (form.pass.value=="664232") {
+
+location="DarkWood14.html"
+} else {
+alert("실패하였습니다.")
+}
+}
+
+</script>
+
+</HEAD>
+
+<body style="background-color:black">
+
+<center><img src = "Monster.jpg" style = "width:20%; height:65%; margin-top: 5%;"/></center>
+
+<center><h1 style="color:DarkGreen;">
+자...</h1>
+<form name="loginForm">
+<p style="margin-bottom:20;"> 
+<input autocomplete="off" name="pass" type="text" size="25">
+<input type="button" value="확 인" onClick="login_page(this.form)" style="font-weight:bolder; font-size:4mm;"><BR>
+</form>
+</center>
+</BODY></HTML>
